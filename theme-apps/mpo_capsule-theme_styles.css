@@ -1,0 +1,459 @@
+/*** Fallback Color Swatches ***/
+
+
+/* WHITES */
+
+span[data-swatch$="White"] {background-color: #FDFDFD}
+span[data-swatch^='White/'] {background-image: linear-gradient(to right, #FDFDFD 0%,#FDFDFD 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* GRAYS */
+
+span[data-swatch$="Gray"] {background-color: #808080}
+span[data-swatch^='Gray/'] {background-image: linear-gradient(to right, #808080 0%,#808080 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Asphalt"] {background-color: #505457}
+span[data-swatch^='Asphalt/'] {background-image: linear-gradient(to right, #505457 0%,#505457 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Athletic Heather"],span[data-swatch$="Heather Gray"],span[data-swatch$="Heather Grey"],span[data-swatch$="Gray"],span[data-swatch$="Grey"] {background-color: #fff; background-image: url(https://themefiend.com/wp-content/uploads/tfcreator/heather-swatch.png); background-size: 300%;}
+span[data-swatch^='Athletic Heather/'],span[data-swatch^='Heather Gray/'],span[data-swatch^='Heather Grey/'],span[data-swatch^='Gray/'],span[data-swatch^='Grey/'] {background-image: linear-gradient(to right, #A8ABB2 0%,#A8ABB2 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Dark Gray"],span[data-swatch$="Dark Grey"],span[data-swatch$="Charcoal"] {background-color: #3E3C3D}
+span[data-swatch^='Dark Gray/'],span[data-swatch^='Dark Grey/'],span[data-swatch^='Charcoal/'] {background-image: linear-gradient(to right, #3E3C3D 0%,#3E3C3D 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Ash"] {background-color: #ECEBE9}
+span[data-swatch^='Ash/'] {background-image: linear-gradient(to right, #ECEBE9 0%,#ECEBE9 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* BLACKS */
+span[data-swatch$="Black"] {background-color: #27262B}
+span[data-swatch^='Black/'] {background-image: linear-gradient(to right, #27262B 0%,#27262B 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* REDS */
+
+span[data-swatch$="Red"] {background-color: #D00F3C}
+span[data-swatch^='Red/'] {background-image: linear-gradient(to right, #D00F3C 0%,#D00F3C 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Pink"] {background-color: #FCD1DB}
+span[data-swatch^='Pink/'] {background-image: linear-gradient(to right, #FCD1DB 0%,#FCD1DB 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Maroon"] {background-color: #552535}
+span[data-swatch^='Maroon/'] {background-image: linear-gradient(to right, #552535 0%,#552535 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Hot Pink"] {background-color: #E2447E}
+span[data-swatch^='Hot Pink/'] {background-image: linear-gradient(to right, #E2447E 0%,#E2447E 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Burgundy"] {background-color: #6d1d23}
+span[data-swatch^='Burgundy/'] {background-image: linear-gradient(to right, #6d1d23 0%,#6d1d23 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Rasberry"] {background-color: #FC667D}
+span[data-swatch^='Rasberry/'] {background-image: linear-gradient(to right, #FC667D 0%,#FC667D 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* ORANGES */
+
+span[data-swatch$="Orange"] {background-color: #D96E51}
+span[data-swatch^='Orange/'] {background-image: linear-gradient(to right, #D96E51 0%,#D96E51 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* YELLOWS */
+
+span[data-swatch$="Gold"] {background-color: #F8A933}
+span[data-swatch^='Gold/'] {background-image: linear-gradient(to right, #F8A933 0%,#F8A933 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Yellow"] {background-color: #FBF271}
+span[data-swatch^='Yellow/'] {background-image: linear-gradient(to right, #FBF271 0%,#FBF271 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* BROWNS */
+
+span[data-swatch$="Camel"] {background-color: #a27446}
+span[data-swatch^='Camel/'] {background-image: linear-gradient(to right, #a27446 0%,#a27446 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Tan"] {background-color: #ebdabe}
+span[data-swatch^='Tan/'] {background-image: linear-gradient(to right, #ebdabe 0%,#ebdabe 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Nude"] {background-color: #f0d6c4}
+span[data-swatch^='Nude/'] {background-image: linear-gradient(to right, #f0d6c4 0%,#f0d6c4 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Army"] {background-color: #836652}
+span[data-swatch^='Army/'] {background-image: linear-gradient(to right, #836652 0%,#836652 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Vegas Gold"] {background-color: #e1be73}
+span[data-swatch^='Vegas Gold/'] {background-image: linear-gradient(to right, #e1be73 0%,#e1be73 50%,transparent 50%,transparent 100%)}
+
+
+
+/* PURPLES */
+
+span[data-swatch$="Berry"] {background-color: #C13C7E}
+span[data-swatch^='Berry/'] {background-image: linear-gradient(to right, #C13C7E 0%,#C13C7E 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Heather Purple"] {background-color: #816FA6}
+span[data-swatch^='Heather Purple/'] {background-image: linear-gradient(to right, #816FA6 0%,#816FA6 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Purple"] {background-color: #443169}
+span[data-swatch^='Purple/'] {background-image: linear-gradient(to right, #443169 0%,#443169 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Lavender"] {background-color: #dbd9f2}
+span[data-swatch^='Lavender/'] {background-image: linear-gradient(to right, #dbd9f2 0%,#dbd9f2 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* BLUES */
+
+span[data-swatch$="Royal"], span[data-swatch$="Royal Blue"], span[data-swatch$="Blue"] {background-color: #18498C}
+span[data-swatch^='Royal/'], span[data-swatch^='Royal Blue/'],span[data-swatch^='Blue/'] {background-image: linear-gradient(to right, #18498C 0%,#18498C 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Baby Blue"] {background-color: #B6C8DB}
+span[data-swatch^='Baby Blue/'] {background-image: linear-gradient(to right, #B6C8DB 0%,#B6C8DB 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Aqua"] {background-color: #51b1bd}
+span[data-swatch^='Aqua/'] {background-image: linear-gradient(to right, #51b1bd 0%,#51b1bd 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Heather Blue"] {background-color: #86A9C9}
+span[data-swatch^='Heather Blue/'] {background-image: linear-gradient(to right, #86A9C9 0%,#86A9C9 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Teal"] {background-color: #3891a3}
+span[data-swatch^='Teal/'] {background-image: linear-gradient(to right, #3891a3 0%,#3891a3 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Heather Midnight Navy"] {background-color: #35353F}
+span[data-swatch^='Heather Midnight Navy/'] {background-image: linear-gradient(to right, #35353F 0%,#35353F 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Light Blue"] {background-color: #94AFCA}
+span[data-swatch^='Light Blue/'] {background-image: linear-gradient(to right, #94AFCA 0%,#94AFCA 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Navy"] {background-color: #37384A}
+span[data-swatch^='Navy/'] {background-image: linear-gradient(to right, #37384A 0%,#37384A 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Denim"] {background-color: #c2dff6; background-image: url(https://themefiend.com/wp-content/uploads/tfcreator/heather-swatch.png); background-size: 300%;}
+span[data-swatch^='Denim/'] {background-image: linear-gradient(to right, #a3bacd 0%,#a3bacd 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Indigo"] {background-color: #2a3348}
+span[data-swatch^='Indigo/'] {background-image: linear-gradient(to right, #2a3348 0%,#2a3348 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Slate"] {background-color: #717889}
+span[data-swatch^='Slate/'] {background-image: linear-gradient(to right, #717889 0%,#717889 50%,transparent 50%,transparent 100%)}
+
+
+
+
+/* GREENS */
+
+span[data-swatch$="Heather Mint"] {background-color: #72D3B4}
+span[data-swatch^='Heather Mint/'] {background-image: linear-gradient(to right, #72D3B4 0%,#72D3B4 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Forest"] {background-color: #1F4A2E}
+span[data-swatch^='Forest/'] {background-image: linear-gradient(to right, #1F4A2E 0%,#1F4A2E 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Spruce"] {background-color: #17443a}
+span[data-swatch^='Spruce/'] {background-image: linear-gradient(to right, #17443a 0%,#17443a 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Kelly"],span[data-swatch$="Green"] {background-color: #016D56}
+span[data-swatch^='Kelly/'],span[data-swatch^='Green/'] {background-image: linear-gradient(to right, #016D56 0%,#016D56 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Leaf"] {background-color: #548655}
+span[data-swatch^='Leaf/'] {background-image: linear-gradient(to right, #548655 0%,#548655 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Olive"] {background-color: #434C31}
+span[data-swatch^='Olive/'] {background-image: linear-gradient(to right, #E2E3DE 0%,#E2E3DE 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Heather Green"] {background-color: #5BBB8C}
+span[data-swatch^='Heather Green/'] {background-image: linear-gradient(to right, #5BBB8C 0%,#5BBB8C 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Lime"] {background-color: #9BD16F}
+span[data-swatch~='Lime/'] {background-image: linear-gradient(to right, #9BD16F 0%,#9BD16F 50%,transparent 50%,transparent 100%)}
+
+span[data-swatch$="Camo"],span[data-swatch$="Camouflage"] {background-color: #000; background-image: url(https://themefiend.com/wp-content/uploads/tfcreator/camo-swatch.jpg); background-size: 200%; background-position: center;}
+
+
+
+.loader {display:none}
+button.mfp-close {display: none}
+#product_content > button.mfp-close {display: block}
+
+
+/*** Cart Styles ***/
+
+.item_images {
+    display: none;
+}
+
+.swatch-options {
+	display: none
+}
+	
+/*** Indy Product Page ***/
+	
+	.select select {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	#multiple_product_options li input:checked + label {
+		background-color: #dddddd;
+	}
+
+	#multiple_product_options li label {
+		padding: 5px;
+		border: 1px solid #ddd;
+		display: inline-block;
+		line-height: 100%;
+		cursor: pointer;
+		margin-right: 5px;
+		font-weight: 400;
+	}
+	
+	.color-swatch {
+		width: 30px;
+		height: 30px;
+		margin: -1px;
+		display: inline-block;
+		vertical-align: middle;
+		border: 1px solid #ccc;
+		background-color: transparent;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		color: transparent;
+		background-size: 105%;
+	}
+	
+	span.color-swatch + span {
+		margin-left: 5px
+	}
+
+	#multiple_product_options li input {
+		display: inline-block;
+		visibility: hidden;
+		position: absolute;
+		left: -9999px;
+	}
+
+	#multiple_product_options li {
+		list-style: none;
+		display: inline-block;
+	}
+
+	#multiple_product_options li:hover label {
+		background-color: #eee;
+	}
+
+	.selector {
+		margin-bottom: 10px;
+	}
+
+	.option-title, .sub-option-title {
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	
+	span.ot-name {
+		font-weight: 300;
+		margin-left: 5px;
+	}
+	
+	.product-image-gallery li {
+		list-style: none;
+		border-radius: 0px;
+		padding: 0px;
+		border: none;
+	}
+	
+/* Options Dropdown Menu */
+	
+	.option-holder {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+#multiple_product_options .select-menu li label {
+    margin: 0px;
+	padding: 10px;
+    width: 100%;
+    border-top: 0px;
+	border-left: 0px;
+    border-right: 0px;
+	line-height: 150%;
+}
+
+#multiple_product_options .select-menu li span.color-swatch + span, .selected-option-name span.color-swatch + span {
+		display: inline-block !important
+	}
+
+.option-holder span.select-arrow {
+    border-left: 1px solid rgba(0,0,0,.1);
+    float: right;
+    display: inline-block;
+    padding: 12px 15px;
+    height: 100%;
+    line-height: 100%;
+    font-size: 21px;
+    box-sizing: border-box;
+}
+
+span.selected-option-name {
+    padding: 10px;
+    display: inline-block;
+}
+
+ul.select-menu {
+    padding: 0px;
+    border: 1px solid rgba(0,0,0,.1);
+    display: none;
+}
+
+.parent-options.option-group {
+    position: relative;
+}
+
+.option-holder.active + ul.select-menu {
+    display: block;
+    position: absolute;
+    z-index: 9;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul.select-menu li {
+    display: block;
+    width: 100%;	
+    display: inline-block;
+}
+
+.option-holder:hover {
+    background-color: rgba(0,0,0,.03);
+}
+	
+	
+	
+/*** Product Grid ***/
+	
+	.product ul {
+		padding: 0px;
+	}
+	.product ul li {
+		list-style: none;
+	}
+
+	.shop-item-image li:not(:first-of-type) {display: none}
+	
+	/* Grid Styles */
+	.product_options_list li {
+		display: inline-block;
+		margin-right: 5px;
+	}
+	
+	.product_options_list span.label-text {
+		font-size: 11px;
+		padding: 5px;
+	}
+
+	.product_options_list li input[type=radio] {
+		visibility: hidden;
+		position: absolute;
+		left: -999px;
+		z-index: -1;
+	}
+
+	.product_options_list {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.product_options_list label {
+		cursor: pointer;
+	}
+	
+	span.color-swatch + span {
+		display: none
+	}
+	
+	.pol-inner {visibility:hidden}
+	
+	.pol-more {display: none}
+	/* End Grid Styles */
+
+	.select select {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	#multiple_product_options li input:checked + label {
+		background-color: #dddddd;
+	}
+
+	#multiple_product_options li label {
+		padding: 5px;
+		border: 1px solid #ddd;
+		display: inline-block;
+		line-height: 100%;
+		cursor: pointer;
+		margin-right: 5px;
+		font-weight: 600;
+	}
+	
+	
+	.product_options_list li span.color-swatch {
+		width: 20px;
+		height: 20px;
+	}
+	
+	span.color-swatch + span {
+		margin-left: 10px
+	}
+
+	#multiple_product_options li input {
+		display: inline-block;
+		visibility: hidden;
+		position: absolute;
+		left: -9999px;
+	}
+
+	#multiple_product_options li {
+		list-style: none;
+		display: inline-block;
+	}
+
+	#multiple_product_options li:hover label {
+		background-color: #eee;
+	}
+
+	.selector {
+		margin-bottom: 10px;
+	}
+
+	.option-title {
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	
+	.sub-option_title {
+		font-weight: 600;
+	}
+	
+	span.label-text {
+		display: inline-block;
+		font-weight: 300;
+		padding: 5px 10px;
+		border: 1px solid #ccc;
+		line-height: 100%;
+		vertical-align: middle;
+	}

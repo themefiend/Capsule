@@ -1,0 +1,202 @@
+#theme-trial {
+	font-family: Barolow;
+	font-size: 16px;
+	color: #777;
+	line-height: 1.75;
+	margin: 0;
+	font-weight: 300;
+}
+
+#theme-trial small {
+	font-family: Barlow;
+    line-height: 125%;
+    width: 90%;
+    display: inline-block;
+	margin: 15px auto;
+}
+
+#theme-trial .h1, #theme-trial h1 {
+    font-size: 2.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+#theme-trial .h2, #theme-trial h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -0.5rem;
+	color: #555;
+}
+
+#theme-trial .h3, #theme-trial h3 {
+    font-size: 30px !important;
+    font-family: Barlow Semi Condensed;
+    color: #222;
+    font-weight: 600;
+}
+
+#theme-trial .h5, #theme-trial h5 {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+#theme-trial .modal-header {
+    border-bottom: none;
+    padding-top: 2rem;
+}
+
+#theme-trial .modal-title {
+	font-size: 42px !important;
+	text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000;
+    display: block;
+    width: 100%;
+}
+
+#theme-trial hr {
+    border-top: 1px solid #ccc !important;
+    margin-top: 0;
+}
+
+
+#theme-trial .btn-primary {
+    background-color: #89c54a;
+    border-color: #89c54a;
+	color: #fff;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 20px;
+    font-family: Barlow Semi Condensed;
+    display: block;
+    width: 100%;
+    line-height: 1;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+#theme-trial .btn-primary:hover {
+    background-color: #53a007;
+    border-color: #53a007;
+}
+
+#theme-trial input[type=EMAIL], #theme-trial input[type=email] {
+    width: 100%;
+    display: block;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    padding: 20px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+#theme-trial textarea {
+    overflow: auto;
+    resize: vertical;
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    border-color: #ddd;
+    padding: 1rem 1.5rem;
+    height: 150px;
+    margin-top: 1rem;
+	font-size: 10px;
+}
+
+#theme-trial input:focus, #theme-trial textarea:focus {
+    outline: none;
+    border-color: #88c64a;
+    border-width: 3px;
+}
+
+#theme-trial .modal-content {
+    border-radius: 0;
+    border: 0;
+    border-top: 8px solid #88c64a;
+    text-align: center;
+}
+
+#theme-trial input[type="text"] {
+    text-align: center;
+	font-weight: 300;
+}
+
+#theme-trial label {
+	font-family: Barlow;
+    color: #000 !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+}
+
+#theme-trial label[for*=EMAIL] {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    position: relative;
+    margin-top: -6px;
+}
+
+#theme-trial label[for*=EMAIL].valid {
+    color: #89c54a !important;
+}
+
+#theme-trial label[for*=EMAIL].error {
+    color: #ef5350 !important;
+}
+
+#theme-trial .p-5 {
+    padding-top: 0 !important;
+}
+
+.trial-license-key {
+    font-family: Barlow;
+    font-size: 15px;
+}
+
+#theme-trial .close {
+    font-family: barlow !important;
+    font-weight: 300;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+}
+
+#theme-trial .modal-header .close {
+	padding-top: 0;
+}
+
+.code-snippet-zone.inactive {
+    opacity: .1;
+    pointer-events: none;
+}
+
+#header_container .row {
+    display: block !important;
+}
+
+
+.post-entry .trial-install-instructions p, .post-entry .trial-install-instructions li {
+    font-size: 13px !important;
+    display: block;
+}
+
+
+.trial-install-instructions {
+    width: 90%;
+    margin: auto;
+}
+
+.trial-install-instructions ul {
+    display: block !important;
+    font-family: Barlow;
+}
