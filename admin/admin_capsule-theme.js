@@ -110,9 +110,6 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 	
 		// CHOOSE PRESET
 			
-			
-		 
-
 
 	for (var a = 0; a < formData.items.length; a++) {
 	
@@ -126,7 +123,7 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 			  
 				customizerForm.innerHTML += '<div data-category="tf-admin_' + formData.items[a].category + '"class="section-heading admin-category col-12 mt-3 mb-0 d-none"><h4>' + formData.items[a].title + '</h4></div>'
 			  
-	   } 
+	  } 
 			  
 			  
 	  if (formData.items[a].type.toLowerCase() != 'section_header') {
@@ -654,7 +651,7 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 							  
 								  for (var a = 0; a < formData.items.length; a++) {
 						              if (formData.items[a].title == parentOfImage) {
-						                	formData.items[a].value = $('[data-field-name="' + formData.items[a].title + '"] input[type="file"]').val();
+						                	formData.items[a].value = document.querySelector('[data-field-name="' + formData.items[a].title + '"] input[type="file"]').files[0].path;
 						              } 
 								      imageUpdate[formData.items[a].title] = formData.items[a].value;       
 								  }
