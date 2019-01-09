@@ -48,7 +48,7 @@
   // Load Theme Controls 
   
 
-  loadjscssfile('https://s3.amazonaws.com/themefiend/capsule-theme/_version/v1/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'admin/theme-controls.js', 'js');
+  loadjscssfile('https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'admin/theme-controls.js', 'js');
   
   // Loading Presets
   
@@ -79,7 +79,7 @@
     
 
     function _preset(name) {
-      loadjscssfile('https://s3.amazonaws.com/themefiend/capsule-theme/_version/v1/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + name + '/default-settings.js', 'js');
+      loadjscssfile('https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + name + '/default-settings.js', 'js');
     }
     
     // Available Theme Presets
