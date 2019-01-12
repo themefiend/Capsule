@@ -1,7 +1,5 @@
-/*** Fallback Color Swatches ***/
 
 
-/* WHITES */
 
 span[data-swatch$="White"] {background-color: #FDFDFD}
 span[data-swatch^='White/'] {background-image: linear-gradient(to right, #FDFDFD 0%,#FDFDFD 50%,transparent 50%,transparent 100%)}
