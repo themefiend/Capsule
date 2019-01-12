@@ -89,7 +89,7 @@ themePreset = {
   handle: USER("Choose a Preset").toLowerCase() || 'street',
 };
 
-themePreset.styles = '<link data-stylesheet="preset-css" href="https://s3.amazonaws.com/themefiend/capsule-theme/_version/v1/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + themePreset.handle + '/styles.css" rel="stylesheet">'
+themePreset.styles = '<link data-stylesheet="preset-css" href="https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + themePreset.handle + '/styles.css" rel="stylesheet">'
 
 // Stylesheet
 var stylesheet = 
