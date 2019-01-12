@@ -179,7 +179,7 @@ if (typeof trialID != "undefined") {
 						
 						
 	
-						availableApps('https://s3.amazonaws.com/themefiend/capsule-theme/_version/v1/' + (typeof environment != 'undefined'  ? environment : 'staging/') + 'theme-apps/apps_capsule-theme.js');
+						availableApps('https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'master/') + 'theme-apps/apps_capsule-theme.js');
 										
 						
 						document.head || (document.head = document.getElementsByTagName('head')[0]);
@@ -305,7 +305,7 @@ if (typeof trialID != "undefined") {
 						  handle: USER("Choose a Preset").toLowerCase() || 'street',
 						};
 						
-						themePreset.styles = '<link data-stylesheet="preset-css" href="https://s3.amazonaws.com/themefiend/capsule-theme/_version/v1/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + themePreset.handle + '/styles.css" rel="stylesheet">'
+						themePreset.styles = '<link data-stylesheet="preset-css" href="https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + themePreset.handle + '/styles.css" rel="stylesheet">'
 
 						// Function for translucent header background color (USER("Header Navigation Overlay")
 						function hexToRGB(hex, alpha) {
