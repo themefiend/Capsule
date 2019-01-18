@@ -44,8 +44,8 @@ Website: themefiend.com
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.20/jquery.zoom.min.js" async></script>
 	
-	<script type="text/javascript" src="https://s3.amazonaws.com/themefiend/js/jquery.sticky-kit.min.js" async></script>
-	<script type="text/javascript" src="https://s3.amazonaws.com/themefiend/js/mousewheel.js" async></script>
+	<script type="text/javascript" src="https://themefiend.com/_src/jquery.sticky-kit.min.js" async></script>
+	<script type="text/javascript" src="https://themefiend.com/_src/mousewheel.js" async></script>
 	
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>

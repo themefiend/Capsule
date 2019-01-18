@@ -41,7 +41,7 @@ a.navbar-brand {
     line-height: 1 !important;
 }
 
-.store-logo {
+.store-logo .navbar-brand {
     max-width: 50%;
 }
 
