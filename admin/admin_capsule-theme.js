@@ -67,7 +67,7 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 			</div>\
 		</header>\
 		<form action="" method="post" class="customizer-form container-fluid"><div class="row customizer-form_holder col-12 mx-auto"></div></form>\
-		<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : '/master') + 'admin/admin_capsule-theme.css"/>';
+		<link rel="stylesheet" type="text/css" href="https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : '/master') + 'admin/admin_capsule-theme.css"/>';
 
     		
     

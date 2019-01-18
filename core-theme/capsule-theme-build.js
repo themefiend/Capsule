@@ -48,7 +48,7 @@
   // Load Theme Controls 
   
 
-  loadjscssfile('https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'admin/theme-controls.js', 'js');
+  loadjscssfile('https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'admin/theme-controls.js', 'js');
   
   // Loading Presets
   
@@ -79,7 +79,7 @@
     
 
     function _preset(name) {
-      loadjscssfile('https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + name + '/default-settings.js', 'js');
+      loadjscssfile('https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + name + '/default-settings.js', 'js');
     }
     
     // Available Theme Presets
@@ -179,7 +179,7 @@ if (typeof trialID != "undefined") {
 						
 						
 	
-						availableApps('https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'master/') + 'theme-apps/apps_capsule-theme.js');
+						availableApps('https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'master/') + 'theme-apps/apps_capsule-theme.js');
 										
 						
 						document.head || (document.head = document.getElementsByTagName('head')[0]);
@@ -305,7 +305,7 @@ if (typeof trialID != "undefined") {
 						  handle: USER("Choose a Preset").toLowerCase() || 'street',
 						};
 						
-						themePreset.styles = '<link data-stylesheet="preset-css" href="https://raw.githubusercontent.com/themefiend/Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + themePreset.handle + '/styles.css" rel="stylesheet">'
+						themePreset.styles = '<link data-stylesheet="preset-css" href="https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + themePreset.handle + '/styles.css" rel="stylesheet">'
 
 						// Function for translucent header background color (USER("Header Navigation Overlay")
 						function hexToRGB(hex, alpha) {

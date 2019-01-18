@@ -19,8 +19,8 @@ Website: themefiend.com
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.js"></script>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="https://raw.githubusercontent.com/themefiend/Capsule/{{ env }}theme-apps/mpo_capsule-theme_styles.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="https://raw.githubusercontent.com/themefiend/Capsule/{{ env }}core-theme/capsule-theme-styles.css">
+	<link href="https://themefiend.com/_Capsule/{{ env }}theme-apps/mpo_capsule-theme_styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://themefiend.com/_Capsule/{{ env }}core-theme/capsule-theme-styles.css">
 	<!-- Older FontAwesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<!-- Newer FontAwesome -->
@@ -39,8 +39,8 @@ Website: themefiend.com
     
 
     
-	<script type="text/javascript" src="https://raw.githubusercontent.com/themefiend/Capsule/{{ env }}trial/trial_capsule-theme.js"></script>
-	<script type="text/javascript" src="https://raw.githubusercontent.com/themefiend/Capsule/{{ env }}core-theme/capsule-theme-build.js"></script>	
+	<script type="text/javascript" src="https://themefiend.com/_Capsule/{{ env }}trial/trial_capsule-theme.js"></script>
+	<script type="text/javascript" src="https://themefiend.com/_Capsule/{{ env }}core-theme/capsule-theme-build.js"></script>	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.20/jquery.zoom.min.js" async></script>
 	
@@ -61,7 +61,7 @@ Website: themefiend.com
 	<script type="text/javascript" src="https://abouolia.github.io/sticky-sidebar/js/ResizeSensor.js"></script>
 	<script type="text/javascript" src="https://abouolia.github.io/sticky-sidebar/js/sticky-sidebar.js"></script>
     
-       <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/themefiend/Capsule/{{ env }}admin/admin_capsule-theme.css"/>
+       <link rel="stylesheet" type="text/css" href="https://themefiend.com/_Capsule/{{ env }}admin/admin_capsule-theme.css"/>
     
 
 	{{ head_content }}
@@ -165,7 +165,7 @@ Website: themefiend.com
 
   
   
-  <script type="text/javascript" src="https://raw.githubusercontent.com/themefiend/Capsule/{{ env }}admin/admin_capsule-theme.js"></script>
+  <script type="text/javascript" src="https://themefiend.com/_Capsule/{{ env }}admin/admin_capsule-theme.js"></script>
 
  
   <!-- BEGIN EXTRA SCRIPTS -->
