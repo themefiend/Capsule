@@ -45,6 +45,14 @@ a.navbar-brand {
     max-width: 50%;
 }
 
+@media screen and (max-width: 992px) {
+
+    .store-logo  {
+        max-width: 50%;
+    }
+
+}
+
 /* AJTEMP: Padding and border on navigation */
 
 .navbar-brand.py-3 {
