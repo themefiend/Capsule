@@ -489,6 +489,7 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 		    });
 
 
+
 		
 		    // SAVE: Saves customization changes
 		    
@@ -658,8 +659,13 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 								      imageUpdate[formData.items[a].title] = formData.items[a].value;       
 								  }
 								  	
-							  	
-								  //firebase.database().ref('/' + data.key).update(imageUpdate);
+
+								 formValuesLoop();
+							  		
+								 firebase.database().ref('/' + data.key).update(imageUpdate);
+								  
+
+		    					  // firebase.database().ref('/' + data.key).update(userImportData)
 			 
 							}).catch(function(error) {
 							  // Uh-oh, an error occurred!
