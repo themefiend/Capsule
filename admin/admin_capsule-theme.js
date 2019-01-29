@@ -642,14 +642,19 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 					// (Note: Images hosted on Firebase as of October 1, 2018)
 						
 							var desertRef = firebase.storage().refFromURL(delImgSrc);
-			
+
 							// Delete the file
+							let fieldToDelete = $('[data-field-name="' + parentOfImage + '"] label').text;
+							firebase.database().ref('/' + data.key).update({fieldToDelete: ''});
+
+							console.log('Image deleted');
+							document.querySelector('[data-field-name="' + parentOfImage + '"] .image-preview_img').innerHTML = '';  
+							document.querySelector('[data-field-name="' + parentOfImage + '"] .image-input').value = '';
+			
+							// Remove file from Firebase
 							desertRef.delete().then(function() {
 							  // File deleted successfully
-							  console.log('Image deleted');
-							  document.querySelector('[data-field-name="' + parentOfImage + '"] .image-preview_img').innerHTML = '';  
-							  document.querySelector('[data-field-name="' + parentOfImage + '"] .image-input').value = '';
-							  
+
 							  var imageUpdate = {};
 							  
 								  for (var a = 0; a < formData.items.length; a++) {
@@ -658,14 +663,7 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 						              } 
 								      imageUpdate[formData.items[a].title] = formData.items[a].value;       
 								  }
-								  	
-
-								 formValuesLoop();
-							  		
-								 firebase.database().ref('/' + data.key).update(imageUpdate);
-								  
-
-		    					  // firebase.database().ref('/' + data.key).update(userImportData)
+				
 			 
 							}).catch(function(error) {
 							  // Uh-oh, an error occurred!
