@@ -488,11 +488,7 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 		    	
 		    });
 
-		    // Remove broken images
 
-		    $("img").error(function () {
-			  $(this).unbind("error").attr("src", "").remove();
-			});
 		
 		    // SAVE: Saves customization changes
 		    
@@ -663,7 +659,7 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
 								  }
 								  	
 							  	
-								  firebase.database().ref('/' + data.key).update(imageUpdate);
+								  //firebase.database().ref('/' + data.key).update(imageUpdate);
 			 
 							}).catch(function(error) {
 							  // Uh-oh, an error occurred!
