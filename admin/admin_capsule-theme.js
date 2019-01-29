@@ -487,6 +487,12 @@ firebase.database().ref().orderByChild('License Key').equalTo(userLicense).once(
         		});
 		    	
 		    });
+
+		    // Remove broken images
+
+		    $("img").error(function () {
+			  $(this).unbind("error").attr("src", "").remove();
+			});
 		
 		    // SAVE: Saves customization changes
 		    
