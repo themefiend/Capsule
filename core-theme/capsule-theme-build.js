@@ -33,7 +33,11 @@
 	    if (typeof fileref!="undefined")
 	        document.getElementsByTagName("head")[0].appendChild(fileref)
   }
- 
+
+  loadjscssfile('https://unpkg.com/react@16/umd/react.production.min.js', 'js');
+  loadjscssfile('https://unpkg.com/react-dom@16/umd/react-dom.production.min.js', 'js');
+  loadjscssfile('https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js', 'js');
+
 
   var config = {
     apiKey: "AIzaSyC-FgFJGFfqOAUQm7V2VAiLAXK8ygmY8KA",
@@ -2047,3 +2051,15 @@ if (typeof trialID != "undefined") {
 		
 	
 }
+
+
+class Categories extends React.Component {
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+}
+
+ReactDOM.render(
+  <Categories name="World" />,
+  document.querySelector('footer')
+);
